@@ -1,0 +1,76 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #0878f0;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #a41e1e;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.button-section {
+    text-align: center;
+}
+
+/* ボタンのスタイル */
+.cool-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #033b76;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* インライン要素からブロック要素に変更 */
+    margin-top: 10px; /* ボタン間のスペースを作成 */
+}
+
+.cool-button:hover {
+    background-color: #0056b3;
+}
+
+/* フッターのスタイル */
+footer {
+    background-color: #f30606;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
